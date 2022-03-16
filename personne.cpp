@@ -20,7 +20,7 @@ Personne::Personne(const Personne &p)
 string Personne::toString() const
 {
     string res;
-    res = "Nom: " + m_nom + "\nPrénom: " + m_prenom + "\nAdresse: " + m_adresse + "\nNuméro: " + m_numero + "\n";
+    res = "Nom: " + m_nom + "\nPrenom: " + m_prenom + "\nAdresse: " + m_adresse + "\nNumero: " + m_numero + "\n";
     return res;
 }
 

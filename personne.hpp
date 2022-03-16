@@ -1,4 +1,5 @@
-#pragma once
+#ifndef PERSONNE_H
+#define PERSONNE_H
 #include <string>
 #include <iostream>
 #include <sstream>
@@ -33,3 +34,4 @@ class Personne
     void setNumero(string numero);
     virtual string statut_d_emploi() = 0; // virtuelle pure
 };
+#endif

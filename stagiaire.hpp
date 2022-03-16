@@ -1,4 +1,5 @@
-#pragma once
+#ifndef STAGIAIRE_H
+#define STAGIAIRE_H
 #include "etudiant.hpp"
 #include "employe.hpp"
 
@@ -18,3 +19,4 @@ class Stagiaire : virtual public Etudiant, virtual public Employe
     void setResponsable(string programme);
     string statut_d_emploi();
 };
+#endif

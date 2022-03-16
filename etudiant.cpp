@@ -15,7 +15,7 @@ string Etudiant::statut_d_emploi()
 string Etudiant::toString() const
 {
     string res = Personne::toString();
-    res += "Université: " + m_universite + "\nProgramme: " + m_programme + "\n";
+    res += "Universite: " + m_universite + "\nProgramme: " + m_programme + "\n";
     return res;
 }
 

@@ -1,4 +1,5 @@
-#pragma once
+#ifndef ETUDIANT_H
+#define ETUDIANT_H
 #include "personne.hpp"
 
 class Etudiant : virtual public Personne
@@ -20,3 +21,4 @@ class Etudiant : virtual public Personne
     void setProgramme(string programme);
     string statut_d_emploi();
 };
+#endif

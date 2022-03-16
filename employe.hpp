@@ -1,4 +1,5 @@
-#pragma once
+#ifndef EMPLOYE_H
+#define EMPLOYE_H
 #include "personne.hpp"
 
 class Employe : virtual public Personne
@@ -20,3 +21,4 @@ class Employe : virtual public Personne
     void setPoste(string poste);
     string statut_d_emploi();
 };
+#endif
